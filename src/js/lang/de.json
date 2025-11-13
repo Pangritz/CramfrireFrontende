@@ -1,0 +1,79 @@
+{
+    "global": {
+        "label": {
+            "email": "E-Mail",
+            "password": "Passwort",
+            "password_confirmation": "Passwort wiederholen",
+            "remember_login": "angemeldet bleiben"
+        },
+
+        "hint": {
+            "password": "Mindestens 8 Zeichen lang."
+        },
+
+        "button": {
+            "ok": "Ok",
+            "cancel": "Abbruch",
+            "save": "Speichern",
+            "yes": "Ja",
+            "no": "Nein",
+            "back": "Zurück",
+            "forward": "Weiter",
+            "close": "Schließen",
+            "login": "Einloggen",
+            "signup": "Registrieren",
+            "dashboard": "Zur Startseite",
+            "password_forgotten": "Passwort vergessen?"
+        },
+
+        "rule": {
+            "required": "Pflichtfeld",
+            "email": "@:global.label.email ungültig!",
+            "password": "Passwort zu kurz",
+            "max_length": "Zu lang! Maximal {max_length} Zeichen sind erlaubt.",
+            "min_length": "Zu kurz! Mindestens {min_length} Zeichen sind notwendig."
+        },
+
+        "languages": {
+            "AF":"Afrikaans",
+            "SQ":"Albanisch",
+            "AR":"Arabisch",
+            "BG":"Bulgarisch",
+            "ZH":"Chinese",
+            "DA":"Dänisch",
+            "DE":"Deutsch",
+            "EN":"Englisch",
+            "EO":"Esperanto",
+            "ET":"Estnisch",
+            "FA":"Farsi",
+            "FI":"Finnisch",
+            "FR":"Französisch",
+            "EL":"Griechisch",
+            "GA":"Irisch",
+            "IS":"Isländisch",
+            "IT":"Italienisch",
+            "HR":"Kroatisch",
+            "LA":"Latein",
+            "LV":"Lettisch",
+            "LT":"Litauisch",
+            "MT":"Maltesisch",
+            "NL":"Niederländisch",
+            "NO":"Norwegisch",
+            "PS":"Paschtu",
+            "PL":"Polnisch",
+            "PT":"Portugiesisch",
+            "RO":"Rumänisch",
+            "RU":"Russisch",
+            "SV":"Schwedisch",
+            "SK":"Slowakisch",
+            "SL":"Slowenisch",
+            "C1":"Sonstige",
+            "ES":"Spanisch",
+            "TI":"Tigrinya",
+            "CS":"Tschechisch",
+            "TR":"Türkisch",
+            "UK":"Ukrainisch",
+            "HU":"Ungarisch"
+        }
+    }
+}

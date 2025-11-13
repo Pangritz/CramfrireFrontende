@@ -1,0 +1,54 @@
+# API syslink folgen
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|php|svg|xml)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+    # Den Content-Type bei den Schriftarten setzen, da dieser nicht immer automatisch (richtig) gesetzt wird
+    # und der Cache-Header dann nicht gesetzt wird, wie er mit mod_expires unten gesetzt wird
+    AddType application/vnd.ms-fontobject .eot
+    AddType font/ttf .ttf
+    AddType font/otf .otf
+    AddType font/woff .woff
+    AddType font/woff2 .woff2
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType text/css "access 6 month"
+  ExpiresByType application/x-javascript "access plus 6 month"
+  ExpiresByType text/javascript "access plus 6 month"
+  ExpiresByType application/javascript "access plus 6 month"
+  ExpiresByType font/woff "access plus 6 month"
+  ExpiresByType font/woff2 "access plus 6 month"
+  ExpiresByType font/otf "access plus 6 month"
+  ExpiresByType font/ttf "access plus 6 month"
+  ExpiresByType font/eot "access plus 6 month"
+</IfModule>

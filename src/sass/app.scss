@@ -1,0 +1,48 @@
+@import "./opensans-font";
+
+$body-background-color: #fafafa;
+$body-font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+body { background: $body-background-color; font-family: $body-font-family; }
+
+.multiline-text { white-space: pre-wrap; }
+
+.toolbar-content-px-0 .v-toolbar__content { padding-left: 0; padding-right: 0; }
+.toolbar-title-pl-2 .v-toolbar__title { padding-left: 8px; }
+
+.sticky-top-0 { 
+    position: relative; // Zur Sicherheit für die Browser, die "sticky" nicht unterstützen
+    position: sticky; 
+    top: 0; 
+}
+
+.z-index-5 { z-index: 5; }
+
+.cursor-pointer { cursor: pointer; }
+
+.text-decoration-none { text-decoration: none; }
+
+.v-application.theme--light .is--selected { 
+    background: #b3e5fc !important;
+    border-color: #b3e5fc !important;
+}
+.v-application.theme--dark .is--selected { 
+    background: #111 !important;
+    border-color: #111 !important;
+}
+
+.position-relative { position: relative !important; }
+.word-break-normal { word-break: normal !important; }
+
+.study-actions-bottom {
+    position: fixed;
+    z-index: 5;
+    background: $body-background-color;
+    width: auto;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+}
+
+// Anpassungen, um das Update auf Vuetify 2 zu vereinfachen 
+.d-flex > * { flex: 1 1 auto; }

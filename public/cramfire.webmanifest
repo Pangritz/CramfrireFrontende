@@ -1,0 +1,39 @@
+{
+    "name": "Cramfire",
+    "short_name": "Cramfire",
+    "description": "Der Vokabeltrainer mit innovativer Abfragetechnik zum schnellen Lernen von Vokabeln für alle Sprachen.",
+    "icons": [
+        {
+            "src": "images/icons/Cramfire_logo-2019-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+
+        {
+            "src": "images/icons/Cramfire_logo-2019-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        
+        {
+            "src": "images/icons/Cramfire_logo-2019-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+
+        {
+            "src": "images/icons/Cramfire_logo-2019-310x310.png",
+            "sizes": "310x310",
+            "type": "image/png"
+        },
+
+        {
+            "src": "images/icons/Cramfire_logo-2019-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FAFAFA"
+}
