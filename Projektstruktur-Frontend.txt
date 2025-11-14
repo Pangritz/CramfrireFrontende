@@ -1,0 +1,254 @@
+﻿Auflistung der Ordnerpfade f³r Volume System
+Volumeseriennummer : 727D-E122
+C:\LARAGON\WWW\CRAMFIREFRONTEND
+|   .browserslistrc
+|   .dockerignore
+|   .env.development
+|   .env.production
+|   .env.staging
+|   .eslintrc.js
+|   .gitignore
+|   .nvmrc
+|   babel.config.js
+|   Dockerfile
+|   Inhalt.ps1
+|   package-lock.json
+|   package.json
+|   Projektstruktur.txt
+|   vue.config.js
+|   
++---.devcontainer
+|       devcontainer.json
+|       
++---dist
+|   |   .htaccess
+|   |   cramfire.webmanifest
+|   |   favicon.ico
+|   |   index.html
+|   |   
+|   +---fonts
+|   |       MaterialIcons-Regular.2a61b00f.eot
+|   |       MaterialIcons-Regular.51cf1d64.ttf
+|   |       MaterialIcons-Regular.703cf8f2.woff2
+|   |       MaterialIcons-Regular.84a37de8.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300.2a3d175b.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300.e079a1ad.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300italic.209db502.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300italic.5483db56.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600.5d001a17.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600.97593b89.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600italic.ba0552ee.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600italic.ebcdf332.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700.17c283b4.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700.213e8c89.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700italic.ac4cda64.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700italic.b1238317.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800.3d4b2f5a.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800.ca7fe229.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800italic.4fb2e4fe.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800italic.dd013a55.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-italic.391454f0.woff
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-italic.eaa7773c.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-regular.a9557eb4.woff2
+|   |       open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-regular.e15b8743.woff
+|   |       
+|   +---images
+|   |   |   Cramfire_logo-2019.svg
+|   |   |   
+|   |   \---icons
+|   |           Cramfire_logo-2019-152x152.png
+|   |           Cramfire_logo-2019-192x192.png
+|   |           Cramfire_logo-2019-310x310.png
+|   |           Cramfire_logo-2019-32x32.ico
+|   |           Cramfire_logo-2019-32x32.png
+|   |           Cramfire_logo-2019-512x512.png
+|   |           
+|   \---js
+|           app.0e2feb.js
+|           chunk-account.0e2feb.js
+|           chunk-account~chunk-study.0e2feb.js
+|           chunk-activity.0e2feb.js
+|           chunk-activity~chunk-dashboard.0e2feb.js
+|           chunk-cardbox-additonal.0e2feb.js
+|           chunk-cardbox.0e2feb.js
+|           chunk-cardbox~chunk-cardbox-additonal.0e2feb.js
+|           chunk-cardbox~chunk-cardbox-additonal~chunk-dashboard~chunk-study.0e2feb.js
+|           chunk-cardbox~chunk-dashboard.0e2feb.js
+|           chunk-cardbox~chunk-dashboard~chunk-study.0e2feb.js
+|           chunk-dashboard.0e2feb.js
+|           chunk-guest.0e2feb.js
+|           chunk-study.0e2feb.js
+|           chunk-vendors.0e2feb.js
+|           
++---public
+|   |   .htaccess
+|   |   cramfire.webmanifest
+|   |   favicon.ico
+|   |   index.html
+|   |   
+|   \---images
+|       |   Cramfire_logo-2019.svg
+|       |   
+|       \---icons
+|               Cramfire_logo-2019-152x152.png
+|               Cramfire_logo-2019-192x192.png
+|               Cramfire_logo-2019-310x310.png
+|               Cramfire_logo-2019-32x32.ico
+|               Cramfire_logo-2019-32x32.png
+|               Cramfire_logo-2019-512x512.png
+|               
++---scripts
+|       build-image.sh
+|       deploy-production.sh
+|       deploy-staging.sh
+|       
+\---src
+    |   i18n.js
+    |   main.js
+    |   
+    +---assets
+    |   \---fonts
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300italic.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-300italic.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600italic.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-600italic.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700italic.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-700italic.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800italic.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-800italic.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-italic.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-italic.woff2
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-regular.woff
+    |           open-sans-v17-cyrillic_latin_greek_vietnamese_latin-ext_cyrillic-ext_greek-ext-regular.woff2
+    |           
+    +---js
+    |   |   App.vue
+    |   |   http.js
+    |   |   i18n.js
+    |   |   router.js
+    |   |   store.js
+    |   |   validation_rules.js
+    |   |   
+    |   +---classes
+    |   |       Crammodus.js
+    |   |       Inquiry.js
+    |   |       InquiryValidator.js
+    |   |       
+    |   +---components
+    |   |   |   ApiErrorMessage.vue
+    |   |   |   Card.vue
+    |   |   |   CardboxFavoriteBadge.vue
+    |   |   |   CardboxList.vue
+    |   |   |   CardboxListItem.vue
+    |   |   |   CardboxSelectList.vue
+    |   |   |   CardboxSelectListItem.vue
+    |   |   |   CardInput.vue
+    |   |   |   CardLearningStatus.vue
+    |   |   |   CardList.vue
+    |   |   |   CardListItem.vue
+    |   |   |   CramfireLoadingIndicator.vue
+    |   |   |   LanguageSelect.vue
+    |   |   |   LearningStatus.vue
+    |   |   |   LoginButton.vue
+    |   |   |   NoCardboxesHint.vue
+    |   |   |   NumberInput.vue
+    |   |   |   PageTitle.vue
+    |   |   |   PrintableList.vue
+    |   |   |   PrintableTest.vue
+    |   |   |   PublicCardboxListItem.vue
+    |   |   |   RouteLoadingIndicator.vue
+    |   |   |   SearchInput.vue
+    |   |   |   SpecialCharsKeyboard.vue
+    |   |   |   SpeedlearningSettings.vue
+    |   |   |   
+    |   |   +---charts
+    |   |   |       ActivityHistoryChart.vue
+    |   |   |       ActivityLearnTypeDistributionChart.vue
+    |   |   |       ActivityPointsChart.vue
+    |   |   |       
+    |   |   +---dialogs
+    |   |   |       CardEditDialog.vue
+    |   |   |       FeedbackDialog.vue
+    |   |   |       SpeedlearningSettingsDialog.vue
+    |   |   |       StudyOptionsDialog.vue
+    |   |   |       
+    |   |   \---forms
+    |   |           CardCreateForm.vue
+    |   |           CardEditForm.vue
+    |   |           
+    |   +---helpers
+    |   |       apiTokenCookieHelpers.js
+    |   |       arrayHelpers.js
+    |   |       storageHelpers.js
+    |   |       
+    |   +---lang
+    |   |       de.json
+    |   |       
+    |   +---pages
+    |   |       AccountPage.vue
+    |   |       ActivityPage.vue
+    |   |       AdvertiserLinkRedirect.vue
+    |   |       AdvertiserPage.vue
+    |   |       CardboxCreatePage.vue
+    |   |       CardboxEditPage.vue
+    |   |       CardboxIndexPage.vue
+    |   |       CardboxShowPage.vue
+    |   |       CardsImportPage.vue
+    |   |       CouponPage.vue
+    |   |       DashboardPage.vue
+    |   |       EmailConfirmationPage.vue
+    |   |       ErrorNotFoundPage.vue
+    |   |       LearningPage.vue
+    |   |       LearningStatusPage.vue
+    |   |       LoginPage.vue
+    |   |       PasswordForgottenPage.vue
+    |   |       PasswordResetPage.vue
+    |   |       PaypalCancelPage.vue
+    |   |       PaypalReturnPage.vue
+    |   |       PremiumBuyPage.vue
+    |   |       PremiumExpiredPage.vue
+    |   |       PrintListPage.vue
+    |   |       PrintTestPage.vue
+    |   |       ProductPage.vue
+    |   |       PublicCardboxesPage.vue
+    |   |       SearchPage.vue
+    |   |       SettingsPage.vue
+    |   |       SharedCardboxPage.vue
+    |   |       SignupPage.vue
+    |   |       StudyMeaningPage.vue
+    |   |       StudySpeedlearningPage.vue
+    |   |       StudySpellingPage.vue
+    |   |       StudyTestPage.vue
+    |   |       
+    |   +---store_modules
+    |   |   |   accountModule.js
+    |   |   |   cardboxModule.js
+    |   |   |   languageModule.js
+    |   |   |   optionsModule.js
+    |   |   |   productModule.js
+    |   |   |   studyModule.js
+    |   |   |   
+    |   |   \---init_states
+    |   |           account.js
+    |   |           cardbox.js
+    |   |           options.js
+    |   |           
+    |   \---structs
+    |           ApiError.js
+    |           
+    +---plugins
+    |       vuetify.js
+    |       
+    \---sass
+            app.scss
+            opensans-font.scss
+            variables.scss
+            
