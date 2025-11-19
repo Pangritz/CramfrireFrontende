@@ -104,7 +104,7 @@
                 <v-container>
                             <v-row>
                                 <v-col cols="12" sm="6" class="pb-0 pb-sm-3">Kontoinhaber:</v-col>
-                                <v-col cols="12" sm="6" class="black--text">Stefan Pangritz (Cramfire)</v-col>
+                                <v-col cols="12" sm="6" class="black--text">Stefan Pangritz</v-col>
                             </v-row>
 
                             <v-row>
