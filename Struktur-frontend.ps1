@@ -6,7 +6,7 @@
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 
 # Ausgabedatei festlegen
-$OutFile = Join-Path $ScriptDir "Projektstruktur.txt"
+$OutFile = Join-Path $ScriptDir "Projektstruktur-Frontend.txt"
 
 # Baumstruktur mit Dateien erzeugen
 tree $ScriptDir /F /A | Out-File $OutFile -Encoding UTF8

@@ -35,7 +35,7 @@ Dieses Skript führt die folgenden Schritte aus:
 param() # Standard Parameter Block
 
 # --- Konfiguration ---
-$ZielDateiname = "Projektdateien-frontend.txt"
+$ZielDateiname = "Projektinhalt-frontend.txt"
 $TrennzeichenPraefix = "XXXXXXXXXXXXXXXXXXXX "
 
 # Array mit Dateierweiterungen, die in die Zieldatei aufgenommen werden sollen
@@ -43,7 +43,7 @@ $TrennzeichenPraefix = "XXXXXXXXXXXXXXXXXXXX "
 $EinzuschliessendeDateiErweiterungen = @(".html", ".vue", ".js", ".sh", ".json", ".php", ".sql", ".env", ".yml", ".log", ".xml") # Hier können Sie die gewünschten Endungen hinzufügen
 
 # Array von Namen der relativ zum Basisverzeichnis auszugliessenden Unterverzeichnisse
-$AuszuschliessendeUnterverzeichnisse_Relativ = @("vendor","database",".git",".devcontainer") # Fügen Sie hier weitere Verzeichnisse hinzu
+$AuszuschliessendeUnterverzeichnisse_Relativ = @("node_modules") # Fügen Sie hier weitere Verzeichnisse hinzu
 
 # --- Skriptlogik ---
 
