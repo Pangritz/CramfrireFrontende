@@ -40,10 +40,10 @@ $TrennzeichenPraefix = "XXXXXXXXXXXXXXXXXXXX "
 
 # Array mit Dateierweiterungen, die in die Zieldatei aufgenommen werden sollen
 # Die Endungen MÜSSEN mit einem Punkt beginnen (z.B. ".html", ".css", ".txt")
-$EinzuschliessendeDateiErweiterungen = @(".html", ".vue", ".js", ".sh", ".json", ".php", ".sql", ".env", ".yml", ".log", ".xml") # Hier können Sie die gewünschten Endungen hinzufügen
+$EinzuschliessendeDateiErweiterungen = @(".html", ".vue", ".js", ".sh", ".json", ".php", ".sql", ".env", ".yml", ".xml") # Hier können Sie die gewünschten Endungen hinzufügen
 
 # Array von Namen der relativ zum Basisverzeichnis auszugliessenden Unterverzeichnisse
-$AuszuschliessendeUnterverzeichnisse_Relativ = @("node_modules") # Fügen Sie hier weitere Verzeichnisse hinzu
+$AuszuschliessendeUnterverzeichnisse_Relativ = @("node_modules","dist",".git",".devcontainer") # Fügen Sie hier weitere Verzeichnisse hinzu
 
 # --- Skriptlogik ---
 
