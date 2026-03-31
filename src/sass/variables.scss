@@ -1,3 +1,19 @@
+// ─── Schriftart ───────────────────────────────────────────
+
+
+$body-font-family:    'Inter Variable', 'Inter', sans-serif;
+$heading-font-family: 'Inter Variable', 'Inter', sans-serif;
+$font-size-root:      15px;
+
+// ─── Formen & Abstände ────────────────────────────────────
+$border-radius-root:  8px;
+
+// ─── Hintergrund ──────────────────────────────────────────
+$material-light: (
+  'background': #FFFFFF,
+  'app-bar':    #FFFFFF,
+  'cards':      #FFFFFF,
+);
 // Einfache Variablen müssen offenbar vor dem Import gesetzt werden...
 $body-font-family: "Open Sans", Arial, Helvetica, sans-serif;
 $heading-font-family: $body-font-family;
@@ -22,3 +38,7 @@ $container-max-widths: map-deep-merge(
 );
 
 $material-light: map-merge($material-light, ( background: #F5F5F5 ));
+
+$btn-text-transform: none;
+$btn-letter-spacing: 0;
+$btn-font-weight: 500;

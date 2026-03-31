@@ -46,3 +46,12 @@ body { background: $body-background-color; font-family: $body-font-family; }
 
 // Anpassungen, um das Update auf Vuetify 2 zu vereinfachen 
 .d-flex > * { flex: 1 1 auto; }
+
+
+.v-application {
+  background-color: #FFFFFF !important;
+}
+
+.v-navigation-drawer {
+  background-color: #F8FAFC !important;
+}
